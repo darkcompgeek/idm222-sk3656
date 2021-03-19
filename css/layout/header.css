@@ -1,13 +1,13 @@
 /* CSS for header */
 
 header {
-  padding: 1.25rem 0;
+  padding: 2rem 1.5rem;
 }
 
 /* Desktop Media Query */
 
 @media screen and (min-width: 62rem) {
-  header {
+  header div {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -46,6 +46,15 @@ nav ul li {
   font-weight: 700;
   font-size: 1rem;
 }
+
+/* Desktop Media Query */
+
+@media screen and (min-width: 62rem) {
+  nav ul li {
+    margin: 0 1.25rem 0 0;
+  }
+}
+
 nav ul li a {
   padding-bottom: 0.25rem;
 }

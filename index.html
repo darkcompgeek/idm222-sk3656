@@ -10,27 +10,29 @@
 
 <body>
     <header class="content-grid">
-        <div>
-            <a href="index.html" class="link">
-                <h1>Sai Kannekanti</h1>
-            </a>
+        <div class="content-grid-item">
+            <section>
+                <a href="index.html" class="link">
+                    <h1>Sai Kannekanti</h1>
+                </a>
+            </section>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" class="link selected">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="projects.html" class="link deselected">Projects</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="link deselected">About</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#" class="link selected">Portfolio</a>
-                </li>
-                <li>
-                    <a href="projects.html" class="link deselected">Projects</a>
-                </li>
-                <li>
-                    <a href="about.html" class="link deselected">About</a>
-                </li>
-            </ul>
-        </nav>
     </header>
-    <main>
-        <ul class="content-grid grid projects-grid">
+    <main class="content-grid">
+        <ul class="grid projects-grid content-grid-item">
             <li class="background" style="background-image: url('img/portfolio/spice-kit/front_open.jpg');">
                 <a href="subpages/portfolio/spice-kit.html" class="link grid-item container">
                     <div>
@@ -142,11 +144,13 @@
         </ul>
     </main>
     <footer class="content-grid">
-        <ul>
-            <li><a href="https://www.behance.net/darkcompgeek" class="link" target="_blank">Behance</a></li>
-            <li><a href="https://www.linkedin.com/in/saikanndesign/" class="link" target="_blank">LinkedIn</a></li>
-        </ul>
-        <p>designed and coded by Sai Kannekanti</p>
+        <div class="content-grid-item">
+            <ul>
+                <li><a href="https://www.behance.net/darkcompgeek" class="link" target="_blank">Behance</a></li>
+                <li><a href="https://www.linkedin.com/in/saikanndesign/" class="link" target="_blank">LinkedIn</a></li>
+            </ul>
+            <p>designed and coded by Sai Kannekanti</p>
+        </div>
     </footer>
 
 </body>
