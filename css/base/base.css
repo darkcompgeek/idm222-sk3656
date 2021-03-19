@@ -28,6 +28,14 @@ ul li {
   border-radius: 0.5rem;
 }
 
+/* Tablet Media Query */
+
+@media screen and (min-width: 48rem) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .link:link,
 .link:visited {
   color: var(--black);
