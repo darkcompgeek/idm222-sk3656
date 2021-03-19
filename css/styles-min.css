@@ -282,6 +282,13 @@ template {
   --black: #000000;
   --liteGray: #555555;
   --white: #ffffff;
+
+  /* Media Query Sizes */
+
+  --sm: 36rem;
+  --md: 48rem;
+  --lg: 62rem;
+  --xl: 75rem;
 }
 /* Base CSS */
 /* Common, site-wide CSS should go here */
