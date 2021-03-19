@@ -1,0 +1,19 @@
+/* Typography CSS */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+figure {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Gotham";
+}
+p {
+  margin-bottom: 1.5rem;
+  line-height: 1.75rem;
+}

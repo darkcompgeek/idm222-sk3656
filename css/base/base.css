@@ -1,0 +1,97 @@
+/* Base CSS */
+/* Common, site-wide CSS should go here */
+
+html {
+  min-height: 100vh;
+  font-family: "Gotham-Book", sans-serif;
+  background-color: var(--gray);
+  font-size: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+figure img {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+ul li {
+  list-style: none;
+}
+.projects-grid li {
+  border-radius: 0.5rem;
+}
+
+.link:link,
+.link:visited {
+  color: var(--black);
+  transition: 0.25s ease;
+}
+.link:hover,
+.link:active {
+  color: var(--liteGray);
+}
+.content-grid {
+  margin: 0 1.25rem;
+}
+.selected {
+  border-bottom: 3px solid #000;
+}
+.grid {
+  display: grid;
+  grid-gap: 1.25rem;
+}
+.grid-item h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1.25rem;
+}
+
+.background {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container div {
+  height: 20rem;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.25s ease;
+  background-color: var(--white);
+  border-radius: 0.5rem;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+nav .deselected:link,
+.deselected:visited {
+  border-bottom: 3px solid var(--gray);
+  transition: 0.25s ease;
+}
+nav .deselected:hover,
+.deselected:active {
+  border-bottom: 3px solid var(--liteGray);
+}

@@ -1,0 +1,14 @@
+/* Base CSS */
+@import "base/normalize.css";
+@import "base/variables.css";
+@import "base/base.css";
+@import "base/fonts.css";
+@import "base/typography.css";
+
+/* CSS for Layout */
+@import "layout/header.css";
+@import "layout/footer.css";
+
+/* CSS for Subpages */
+@import "pages/subpage.css";
+@import "pages/resume.css";

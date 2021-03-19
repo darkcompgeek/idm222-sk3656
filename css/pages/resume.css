@@ -1,0 +1,22 @@
+/* CSS for Resume */
+
+#resume p {
+  margin-bottom: 0.75rem;
+  line-height: 1.25rem;
+}
+.resume-category {
+  padding: 0.25rem 0;
+}
+
+.resume-category ul {
+  padding: 0 1rem;
+}
+.resume-category ul li {
+  padding-bottom: 0.5rem;
+}
+#resume h2 {
+  margin-bottom: 0.5rem;
+}
+#resume h3 {
+  margin-bottom: 0.75rem;
+}
