@@ -363,7 +363,8 @@ ul li {
   width: 100%;
   opacity: 0;
   transition: 0.25s ease;
-  background-color: var(--white);
+  background-color: var(--black);
+  color: var(--white);
   border-radius: 0.5rem;
 }
 .container:hover .overlay {
