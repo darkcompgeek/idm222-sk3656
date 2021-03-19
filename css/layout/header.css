@@ -4,7 +4,9 @@ header {
   padding: 1.25rem 0;
 }
 
-@media screen and (min-width: 48rem) {
+/* Desktop Media Query */
+
+@media screen and (min-width: 62rem) {
   header {
     display: flex;
     align-items: center;
@@ -22,6 +24,23 @@ nav ul {
   align-items: center;
   justify-content: space-around;
 }
+
+/* Tablet Media Query */
+
+@media screen and (min-width: 48rem) {
+  nav ul {
+    justify-content: center;
+  }
+}
+
+/* Desktop Media Query */
+
+@media screen and (min-width: 62rem) {
+  nav ul {
+    justify-content: flex-end;
+  }
+}
+
 nav ul li {
   margin: 1.25rem;
   font-weight: 700;

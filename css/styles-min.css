@@ -282,6 +282,13 @@ template {
   --black: #000000;
   --liteGray: #555555;
   --white: #ffffff;
+
+  /* Media Query Sizes */
+
+  --sm: 36rem;
+  --md: 48rem;
+  --lg: 62rem;
+  --xl: 75rem;
 }
 /* Base CSS */
 /* Common, site-wide CSS should go here */
@@ -420,7 +427,8 @@ p {
 header {
   padding: 1.25rem 0;
 }
-@media screen and (min-width: 48rem) {
+/* Desktop Media Query */
+@media screen and (min-width: 62rem) {
   header {
     display: -webkit-flex;
     display: flex;
@@ -442,6 +450,20 @@ nav ul {
   align-items: center;
   -webkit-justify-content: space-around;
   justify-content: space-around;
+}
+/* Tablet Media Query */
+@media screen and (min-width: 48rem) {
+  nav ul {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+}
+/* Desktop Media Query */
+@media screen and (min-width: 62rem) {
+  nav ul {
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+  }
 }
 nav ul li {
   margin: 1.25rem;
