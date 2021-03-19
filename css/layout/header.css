@@ -4,6 +4,14 @@ header {
   padding: 1.25rem 0;
 }
 
+@media screen and (min-width: 48rem) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
 header h1 {
   text-transform: uppercase;
   font-weight: 900;

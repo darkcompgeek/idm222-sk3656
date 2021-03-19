@@ -282,13 +282,6 @@ template {
   --black: #000000;
   --liteGray: #555555;
   --white: #ffffff;
-
-  /* Media Query Sizes */
-
-  --sm: 36rem;
-  --md: 48rem;
-  --lg: 62rem;
-  --xl: 75rem;
 }
 /* Base CSS */
 /* Common, site-wide CSS should go here */
@@ -426,6 +419,16 @@ p {
 /* CSS for header */
 header {
   padding: 1.25rem 0;
+}
+@media screen and (min-width: 48rem) {
+  header {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+  }
 }
 header h1 {
   text-transform: uppercase;
