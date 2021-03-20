@@ -340,13 +340,7 @@ ul li {
   grid-template-columns: 1.5rem auto 1.5rem;
   grid-template-areas: ". content .";
 }
-/* Tablet Media Query */
-@media screen and (min-width: 48rem) {
-  .content-grid {
-    grid-template-columns: 3rem auto 3rem;
-  }
-}
-/* Tablet Media Query */
+/* Extra Large Media Query */
 @media screen and (min-width: 87.5rem) {
   .content-grid {
     grid-template-columns: auto 87.5rem auto;
@@ -500,6 +494,17 @@ nav ul li a {
 /* CSS for the Footer */
 footer {
   padding: 2rem 0;
+}
+/* Tablet Media Query */
+@media screen and (min-width: 48rem) {
+  footer div {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+  }
 }
 footer ul {
   display: -webkit-flex;
