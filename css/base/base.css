@@ -58,6 +58,23 @@ ul li {
   grid-template-columns: 1.5rem auto 1.5rem;
   grid-template-areas: ". content .";
 }
+
+/* Tablet Media Query */
+
+@media screen and (min-width: 48rem) {
+  .content-grid {
+    grid-template-columns: 3rem auto 3rem;
+  }
+}
+
+/* Tablet Media Query */
+
+@media screen and (min-width: 87.5rem) {
+  .content-grid {
+    grid-template-columns: auto 87.5rem auto;
+  }
+}
+
 .content-grid-item {
   grid-area: content;
 }
