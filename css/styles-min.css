@@ -622,6 +622,24 @@ footer p {
 .subpage-header {
   height: 35vh;
 }
+/* Tablet Media Query */
+@media screen and (min-width: 48rem) {
+  .subpage-header {
+    height: 50vh;
+  }
+}
+/* Desktop Media Query */
+@media screen and (min-width: 62rem) {
+  .subpage-header {
+    height: 40rem;
+  }
+}
+/* Desktop Media Query */
+@media screen and (min-width: 75rem) {
+  .subpage-header {
+    height: 50rem;
+  }
+}
 .subpage-body section article {
   padding: 1.5rem 0;
 }
