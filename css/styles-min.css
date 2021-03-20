@@ -314,9 +314,6 @@ ul {
 ul li {
   list-style: none;
 }
-.projects-grid li {
-  border-radius: 0.5rem;
-}
 /* Tablet Media Query */
 @media screen and (min-width: 48rem) {
   .projects-grid {
@@ -401,7 +398,6 @@ ul li {
   transition: 0.25s ease;
   background-color: var(--black);
   color: var(--white);
-  border-radius: 0.5rem;
 }
 .container:hover .overlay {
   opacity: 1;
