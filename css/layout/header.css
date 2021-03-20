@@ -1,12 +1,15 @@
 /* CSS for header */
 
 header {
-  padding: 2rem 1.5rem;
+  padding: 2rem 1.5rem 0;
 }
 
 /* Tablet Media Query */
 
 @media screen and (min-width: 48rem) {
+  header {
+    padding: 3rem 2rem;
+  }
   header div {
     display: flex;
     align-items: center;
@@ -14,10 +17,34 @@ header {
   }
 }
 
+/* Desktop Media Query */
+
+@media screen and (min-width: 62rem) {
+  header {
+    padding: 4rem 2rem;
+  }
+}
+
 header h1 {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 1.25rem;
+}
+
+/* Tablet Media Query */
+
+@media screen and (min-width: 48rem) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Desktop Media Query */
+
+@media screen and (min-width: 62rem) {
+  header h1 {
+    font-size: 1.75rem;
+  }
 }
 nav ul {
   display: flex;
@@ -36,6 +63,14 @@ nav ul li {
   margin: 1.25rem;
   font-weight: 700;
   font-size: 1rem;
+}
+
+/* Tablet Media Query */
+
+@media screen and (min-width: 48rem) {
+  nav ul li {
+    font-weight: 400;
+  }
 }
 
 /* Tablet Media Query */

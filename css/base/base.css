@@ -113,6 +113,11 @@ ul li {
   opacity: 1;
 }
 
+nav .selected:link,
+.deselected:visited {
+  font-weight: 700;
+}
+
 nav .deselected:link,
 .deselected:visited {
   border-bottom: 3px solid var(--gray);
