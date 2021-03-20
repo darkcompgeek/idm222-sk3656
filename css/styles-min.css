@@ -323,6 +323,12 @@ ul li {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+/* Desktop Media Query */
+@media screen and (min-width: 62rem) {
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 .link:link,
 .link:visited {
   color: var(--black);
