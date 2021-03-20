@@ -527,6 +527,28 @@ footer p {
 }
 /* CSS for Subpages */
 /* CSS for Subpages */
+.subpage-grid {
+  display: grid;
+}
+/* Tablet Media Query */
+@media screen and (min-width: 48rem) {
+  .subpage-grid {
+    grid-template-columns: 5rem auto 5rem;
+    grid-template-areas: ". subpage-content .";
+  }
+}
+/* Desktop Media Query */
+@media screen and (min-width: 62rem) {
+  .subpage-grid {
+    grid-template-columns: 10rem auto 10rem;
+  }
+}
+/* Widescreen Media Query */
+@media screen and (min-width: 87.5rem) {
+  .subpage-grid {
+    grid-template-columns: auto 70rem auto;
+  }
+}
 .subpage-body h1 {
   padding: 1.5rem 0;
 }
@@ -546,6 +568,9 @@ footer p {
   line-height: 1.25rem;
   font-size: 0.9rem;
   color: var(--liteGray);
+}
+.subpage-grid-item {
+  grid-area: subpage-content;
 }
 .subpage-body .link {
   font-weight: 700;
